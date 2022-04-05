@@ -1,0 +1,38 @@
+<div class="container form-container p-4 rounded-3">
+  <h2 class="form-title mb-4 fs-1 text-center">SIGN UP</h2>
+  <form action="">
+    <div class="row mb-3">
+      <div class="col">
+        <input type="text" class="form-control" required placeholder="First name" aria-label="First name">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" required placeholder="Last name" aria-label="Last name">
+      </div>
+    </div>
+    <div class="mb-3">
+      <input type="text" class="form-control" id="signup-email" required placeholder="Email" aria-label="Email">
+      <div class="email-hint px-2 mt-2"></div>
+    </div>
+    <div class="mb-2">
+      <input type="password" class="form-control" id="signup-password" required placeholder="Password"
+        aria-label="Password" minlength="8">
+      <div class="password-hint px-2 mt-2">
+        Use 8 or more characters using a combination of letters and numbers.
+      </div>
+    </div>
+    <div class="mb-3">
+      <input type="password" class="form-control" id="confirm-signup-password" required placeholder="Confirm Password"
+        aria-label="Confirm Password">
+      <div class="confirm-password-hint px-2 mt-2"></div>
+    </div>
+    <div class="text-end mb-3">
+      <input type="submit" value="Sign up" class="submit--btn btn text-white px-4 py-2">
+    </div>
+
+  </form>
+  <div class="text-center text-muted">
+    Already have account
+    <a href="#" class="login--link">Login</a>
+  </div>
+
+</div>
